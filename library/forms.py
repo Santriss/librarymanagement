@@ -20,7 +20,7 @@ class StudentUserForm(forms.ModelForm):
 class StudentExtraForm(forms.ModelForm):
     class Meta:
         model=models.StudentExtra
-        fields=['enrollment','branch']
+        fields=['enrollment','branch','student_type']
 
 class BookForm(forms.ModelForm):
     class Meta:
