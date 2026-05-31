@@ -136,3 +136,5 @@ EMAIL_HOST_PASSWORD = 'sumityoyo'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+CSRF_TRUSTED_ORIGINS = ['https://librarymanagement-production-839c.up.railway.app']
